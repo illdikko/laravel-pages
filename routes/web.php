@@ -5,5 +5,5 @@ use App\Http\Controllers\ExampleController;
 
 Route::get('/', [ExampleController::class,"accueil"]);
 
-Route::get('/', [ExampleController::class,"about"]);
+Route::get('/about', [ExampleController::class,"about"]);
 
